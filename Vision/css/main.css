@@ -51,6 +51,7 @@ h3{
 
 .header{
   height: 120vh;
+  background-color: #F4F4F4;
 }
 
 .nav{
@@ -108,6 +109,7 @@ h3{
 .problems{
   padding-top: 30px;
   padding-bottom: 30px;
+    background-color: #F4F4F4;
 }
 
 .about__title{
@@ -115,9 +117,6 @@ h3{
   font-size: 40px;
 }
 
-.about__text{
-
-}
 
 .about__author{
 margin-top: 61px;
@@ -126,12 +125,10 @@ margin-top: 61px;
 .about__name{
   font-size: 22px;
 }
- .about__prof{
-
- }
 
  .works{
    padding-top: 131px;
+     background-color: #F4F4F4;
  }
 
  .section-title__label {
@@ -196,9 +193,14 @@ margin-top: 10px;
   margin-top: -32px;
 }
 
+.btn__examples{
+  margin-top: -175px
+}
 
 .users{
   padding-top: 180px;
+  padding-bottom: 170px;
+  background-color: #F4F4F4;
 }
 
 .user{
@@ -224,7 +226,7 @@ margin-top: 10px;
 
 .users-carousel .owl-nav {
 	display: flex;
-	margin-top: -50px;
+	margin-top: -80px;
 	position: relative;
 }
 
@@ -232,15 +234,30 @@ margin-top: 10px;
 	margin-right: 25px;
 }
 
-}
-.clients-row {
 
+.clients {
+	background-color: white;
+  padding-top: 30px;
 }
+
+.clients-row {
+	margin-top: -5px;
+}
+
 .clients-row__item {
   margin-bottom: 70px;
   text-align: center;
 }
 
 .footer{
-  background: url('../img/footer.jpg') center;
+  height: 180px;
+  width: 100%;
+	background: #737373;
+	margin-top: 20px;
+}
+
+.footer-row__item {
+	padding-top: 6%;
+  opacity: 0.6;
+
 }
